@@ -206,8 +206,8 @@ img {
 }
 
 .avatar-img {
-    width: 120px;
-    height: 120px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--color-primary);
@@ -271,14 +271,6 @@ img {
     background: var(--color-primary);
     margin: 1rem auto 0;
     border-radius: 2px;
-}
-
-#about .section-title {
-    text-align: left;
-}
-
-#about .section-title::after {
-    margin: 1rem 0 0;
 }
 
 /* ===== About ===== */
