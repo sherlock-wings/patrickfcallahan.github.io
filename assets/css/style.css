@@ -206,12 +206,12 @@ img {
 }
 
 .avatar-img {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid var(--color-primary);
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
 }
 
 .hero h1 {
@@ -273,11 +273,18 @@ img {
     border-radius: 2px;
 }
 
+#about .section-title {
+    text-align: left;
+}
+
+#about .section-title::after {
+    margin: 1rem 0 0;
+}
+
 /* ===== About ===== */
 .about-content {
     max-width: 800px;
     margin: 0 auto;
-    text-align: left;
 }
 
 .about-content p {
@@ -291,7 +298,6 @@ img {
     list-style-type: disc;
     padding-left: 1.5rem;
     margin-bottom: 1rem;
-    text-align: left;
 }
 
 .about-list li {
@@ -299,8 +305,6 @@ img {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 0.5rem;
-    text-align: left;
-    display: list-item;
 }
 
 /* ===== Experience Timeline ===== */
