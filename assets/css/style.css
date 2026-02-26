@@ -496,6 +496,84 @@ img {
     transform: translateY(-2px);
 }
 
+/* ===== Certifications ===== */
+.certifications-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.certification-item {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.certification-content h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+}
+
+.certification-date {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    font-family: var(--font-mono);
+    margin-bottom: 1rem;
+}
+
+/* ===== Project Blocks (within Experience) ===== */
+.project-block {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-block h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: 0.25rem;
+}
+
+.project-date {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    font-family: var(--font-mono);
+    margin-bottom: 0.75rem;
+}
+
+.project-block p {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
+.project-block ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+}
+
+.project-block li {
+    color: var(--color-text-muted);
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.timeline-content > p {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
 /* ===== Footer ===== */
 .footer {
     padding: 2rem 0;
